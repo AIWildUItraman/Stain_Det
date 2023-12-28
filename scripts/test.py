@@ -2,7 +2,7 @@
     
 import cv2
     
-img = cv2.imread('/home/mxs/sda1/Deepleaning/Stain_Det/examples/WIN_20230822_14_44_07_Pro.jpg')
+img = cv2.imread('/home/mxs/sda1/Deepleaning/Stain_Det/examples/WIN_20230822_14_51_48_Pro.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     
